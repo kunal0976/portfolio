@@ -23,11 +23,11 @@ function headerShadow() {
 }
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["I Am Designer"],
+  strings : ["Designer"],
   loop : true,
-  typeSpeed : 100, 
-  backSpeed : 80,
-  backDelay : 2000
+  typeSpeed : 200, 
+  backSpeed : 150,
+  backDelay : 5000
 })
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
 const sr = ScrollReveal({
